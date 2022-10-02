@@ -1,0 +1,153 @@
+body{
+    background-color: black;
+}
+
+body, html{
+    height: 100%;
+    margin: 0px;
+}
+
+#end-link{
+    text-align: left;
+}
+
+#family{
+
+    width: 700px;
+    height: 650px;
+}
+
+.hero-image{
+    background-image:url(../images/cover.JPG);
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.hero-text{
+    color:black;
+    text-align:center;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform:translate(-50%,-50%)
+}
+
+#hobbies{
+    list-style-type: none;
+    text-align: left;
+    padding-left: 30%;
+}
+
+#link-nav{
+    text-align: right;
+
+}
+
+#main{
+    width:75%;
+    float:left;
+    height:100%;
+    padding-left:15px;
+    padding-top:0px;
+}
+
+.main-articles{
+    background-color: teal;
+    text-align: center; 
+}
+
+.main-articles h1{
+    text-align: center;
+    margin-bottom: -20px;
+    padding-top: 2%;
+}
+
+#main-paragraph{
+    text-align:left;
+    padding-left: 1%;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color:goldenrod
+}
+
+nav{
+    display:block;
+    color: white;
+}
+
+nav li{
+    display: inline;
+    margin: 20px;
+
+}
+
+nav ul{
+    background-color: black;
+    margin:0;
+    list-style-type: none;
+    width:100%;
+    padding: 10px;
+}
+
+#profile-image{
+    width: 200px;
+    border-radius: 50%;
+}
+
+#profile{
+    text-align:center;
+}
+
+#profile h2 {
+    display:inline;
+}
+
+#profile-detail{
+    margin-right:30px;
+    text-align:center;
+}
+
+#side{
+    width:20%;
+    float:right;
+    height:100%;
+    padding:20px;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.side-articles, .main-arcticles{
+    padding:10px;
+    margin-bottom:10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: teal;
+    text-align: center;
+}
+
+.side-articles h1{
+    margin-bottom: 30px;
+}
+
+textarea,input{
+    background-color: lightblue;
+}
+
+#views{
+    width: 700px;
+    height: 250px;
+}
